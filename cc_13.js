@@ -24,3 +24,12 @@ function addEmployee(name, position) {
     employeeContainer.appendChild(employeeCard);
 }
 
+//Task 3 - Bulk Update on Employee Cards
+function highlightEmployees() {
+    const employeeCards = document.querySelectorAll(".employee-card");
+    const employeeArray = [...employeeCards];
+    employeeArray.forEach(card => {
+        card.style.backgroundColor = "lightgray";
+    });
+}
+
