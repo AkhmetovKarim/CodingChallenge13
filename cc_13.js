@@ -32,4 +32,13 @@ function highlightEmployees() {
         card.style.backgroundColor = "lightgray";
     });
 }
+//forgot to commit task 3, it comes together in Commit Task 2
+
+//Task 4 - Implementing Removal 
+employeeContainer.addEventListener("click", function(event) {
+    if (event.target.classList.contains("employee-card")) {
+        console.log("Employee card clicked");
+    }
+});
+
 
